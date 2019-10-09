@@ -1,0 +1,302 @@
+{ "haPages": [
+		{
+			"TripId": "201908sierra",
+			"id": "ha-sierra",
+			"jsonFile": "ha-sierra.json",
+			"backgroundImg": "img/index/201908sierra.jpg",
+			"tripThumb": "img/index/thumb/201908sierra.jpg",
+			"pageLink": "adventures/201908sierra.html",
+			"pageTitle": "June 2019 - Sierra Nevada",
+			"pageSubtitle": "",
+			"tripSumm": ""
+		},
+		{
+			"TripId": "201906amalfi",
+			"id": "ha-amalfi",
+			"jsonFile": "ha-amalfi.json",
+			"backgroundImg": "img/index/201906amalfi.jpg",
+			"tripThumb": "img/index/thumb/201906amalfi.jpg",
+			"pageLink": "adventures/201906amalfi.html",
+			"pageTitle": "June 2019 - Amalfi Coast",
+			"pageSubtitle": "June 2019",
+			"tripSumm": ""
+		},
+		{
+			"TripId": "201903colombia",
+			"id": "ha-colombia",
+			"jsonFile": "ha-colombia.json",
+			"backgroundImg": "img/index/201903colombia.jpg",
+			"tripThumb": "img/index/thumb/201903colombia.jpg",
+			"pageLink": "adventures/201903colombia.html",
+			"pageTitle": "Mar 2019 - Colombia",
+			"pageSubtitle": "",
+			"tripSumm": ""
+		}
+	]
+
+,
+	"HomePageNavBarData" : [
+			{
+				"navgrp": "1",
+				"grpName": "17-19",
+				"grpMember": [
+					{
+						"hrefx": "201908sierra.html",
+						"name": "from haPages Aug19 Sierra",
+						"storeName": "sierra"
+					},
+					{
+						"hrefx": "201906amalfi.html",
+						"name": "Jun19 Amalfi",
+						"storeName": "amalfi"
+					},
+					{
+						"hrefx": "201903colombia.html",
+						"name": "Mar19 Colombia",
+						"storeName": "colombia"
+					},
+					{
+						"hrefx": "201808france.html",
+						"name": "Aug18 France",
+						"storeName": "france"
+					},
+					{
+						"hrefx": "201807banff.html",
+						"name": "July18 Canadian Rockies",
+						"storeName": "banff"
+					},
+					{
+
+						"name": "July17-Stockholm/Copenhagen",
+						"storeName": "sweden"
+					},
+					{
+						"hrefx": "201706malawi.html",
+						"name": "Jun17-Malawi",
+						"storeName": "malawi"
+					}
+				]
+			},
+			{
+				"navgrp": "2",
+				"grpName": "14-16",
+				"grpMember": [
+					{
+						"hrefx": "201609sanjuan.html",
+						"name": "Sept16-San Juan Isl"
+					},
+					{
+						"hrefx": "201606adiron.html",
+						"name": "June16-Adiron",
+						"storeName": "adiron"
+					},
+					{
+						"hrefx": "201511tucson.html",
+						"name": "Nov15-Tucson",
+						"storeName": "tucson"
+					},
+					{
+						"hrefx": "../tdpost/tdIndex.html",
+						"name": "Jun/Jul 15-Divide"
+					},
+					{
+						"hrefx": "201505cogap.html#cogap_top",
+						"name": "May15-C&O-GAP",
+						"storeName": "cogap"
+					},
+					{
+						"hrefx": "201411kauai.html#kauai_top",
+						"name": "Nov14-Kauai",
+						"storeName": "kauai"
+					},
+					{
+						"hrefx": "201409ansel.html#ansel_top",
+						"name": "Sep14-Ansel",
+						"storeName": "ansel"
+					},
+					{
+						"hrefx": "201408tetons.html#tetons_top",
+						"name": "Aug14-Tetons"
+					}
+				]
+			},
+			{
+				"navgrp": "3",
+				"grpName": "10-13",
+				"grpMember": [
+					{
+						"hrefx": "201311ireland.html",
+						"name": "2013 Ireland",
+						"storeName": "ireland"
+					},
+					{
+						"hrefx": "201301kili.html",
+						"name": "2013 Kili",
+						"storeName": "kili"
+					},
+					{
+						"hrefx": "201301kilivideos.html",
+						"name": "2013 Kili Videos"
+					},
+					{
+						"hrefx": "201208greece.html",
+						"name": "2012 Greece",
+						"storeName": "greece"
+					},
+					{
+						"hrefx": "201201canyon.html",
+						"name": "2012 Grand Canyon",
+						"storeName": "canyon"
+					},
+					{
+						"hrefx": "201008alaska.html",
+						"name": "2010 Alaska",
+						"storeName": "alaska"
+					},
+					{
+						"hrefx": "201002costarica.html",
+						"name": "2010 Costa Rica",
+						"storeName": "costarica"
+					}
+				]
+			},
+			{
+				"navgrp": "4",
+				"grpName": "09-00",
+				"grpMember": [
+					{
+						"hrefx": "200904italy.html",
+						"name": "2009 Italy",
+						"storeName": "italy"
+					},
+					{
+						"hrefx": "200808la2norf.html",
+						"name": "2008 X Cntry",
+						"storeName": "la2norf"
+					},{
+						"hrefx": "200807layosemite.html",
+						"name": "2008 LA Yosemite",
+						"storeName": "layosemite"
+					},
+					{
+						"hrefx": "200806nj2la.html",
+						"name": "2008 NJ 2 LA",
+						"storeName": "nj2la"
+					},
+					{
+						"hrefx": "200704rome.html",
+						"name": "2007 Rome",
+						"storeName": "rome"
+					},
+					{
+						"hrefx": "200608hawaii.html",
+						"name": "2006 Hawaii",
+						"storeName": "hawaii"
+					},
+					{
+						"hrefx": "200604lakecomo.html",
+						"name": "2006 Lake Como",
+						"storeName": "lakecomo"
+					},
+					{
+						"hrefx": "200411canyon.html",
+						"name": "2004 Grand Canyon",
+						"storeName": "canyon04"
+					},
+					{
+						"hrefx": "200304sequoia.html",
+						"name": "2003 SF - Seqouia",
+						"storeName": "sequoia"
+					},
+					{
+						"hrefx": "200008smokey.html",
+						"name": "2000 Smokey Mtn NP",
+						"storeName": "smokey"
+					}
+				]
+			},
+			{
+				"navgrp": "5",
+				"grpName": ">99->",
+				"grpMember": [
+					{
+						"hrefx": "199908glacier.html",
+						"name": "1999 Glacier",
+						"storeName": "glacier"
+					},
+					{
+						"hrefx": "199904sedona.html",
+						"name": "1999 Sedona",
+						"storeName": "sedona"
+					},
+					{
+						"hrefx": "199705rmnp.html",
+						"name": "1997 Rocky Mtn NP",
+						"storeName": "rmnp"
+					},
+					{
+						"hrefx": "199510elkhuntNM.html",
+						"name": "1995 Elk Hunt",
+						"storeName": "elkhuntNM"
+					},
+					{
+						"hrefx": "199407BC.html",
+						"name": "1994 BC",
+						"storeName": "BC"
+					},
+					{
+						"hrefx": "199312zimbab.html",
+						"name": "1993 Zimbabwe",
+						"storeName": "zimbab"
+					},
+					{
+						"hrefx": "199308yellowstone.html",
+						"name": "1993 Yellowstone",
+						"storeName": "yellowstone"
+					},
+					{
+						"hrefx": "199108ireland.html",
+						"name": "1991 Ireland",
+						"storeName": "ireland91"
+					},
+					{
+						"hrefx": "198807olympiaBC.html",
+						"name": "1988 Olympia",
+						"storeName": "olympiaBC"
+					},
+					{
+						"hrefx": "198108chiPortDen.html",
+						"name": "1981 Chi-Port",
+						"storeName": "chiPortDen"
+					},
+					{
+						"hrefx": "197907xctry.html",
+						"name": "1979 X Cntry",
+						"storeName": "xctry79"
+					},
+					{
+						"hrefx": "ha_future.html",
+						"name": "Future"
+					}
+				]
+			},
+			{
+				"navgrp": "6",
+				"grpName": "Other",
+				"grpMember": [
+					{
+						"hrefx": "46er.html",
+						"name": "46er"
+					},
+					{
+						"hrefx": "TrainloadOfBosses.html",
+						"name": "JBK-TrainLoad"
+					},
+					{
+						"hrefx": "Turnback.html",
+						"name": "JBK-Turnback the Clock"
+					}
+				]
+			}
+		]
+}
