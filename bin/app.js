@@ -155,7 +155,16 @@ m.route(document.body, "/", {
 		view: function() {
 			return m(Layout, m(Trip))
 		},
-	}
+	},
+	"/output1/": {
+		view: function() {
+			return m(Layout, m(Output1))
+		},
+	},
+	"/output2/": {
+		view: function() {
+			return m(Layout, m(Output2))
+		},
 })
 
 HA.stores.JsonLoader = function JsonLoader(loaderConfig) {
