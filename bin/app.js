@@ -1,43 +1,24 @@
 m.route.prefix('#')
 
 
-var HA = {
+var HAindex = {
 	views: {},
 	stores: {},
 	config: {
-		dataUrl: "/havingadventures.com"
+		dataUrl: "/havingadventures.com/mithril"
 // production this is       dataUrl: ""
 // dev this is       dataUrl: ""
 	}
 };
 
-HA.views.Main = function Main() {
+HAindex.views.Main = function Main() {
 	"use strict";
 	return {
 		view: function (vnode) {
-			return m("div", "Having Adventures", vnode.attrs.adventures);
+			return m("div", vnode.attrs.adventures);  //removed "HA index",
 		}
 	};
 };
-
-HA.views.Adventure = function (vnode) {
-	var pageStore = new HA.stores.JsonLoader({
-		url: vnode.attrs.dataUrl,
-		name: vnode.attrs.storeName
-	});
-
-	var navStore = new HA.stores.JsonLoader({
-		url: '../json/HaNav.json',
-		name: 'navData'
-	});
-
-	pageStore.load();
-	navStore.load();
-
-	return {
-		view: function (vnode) {
-			return m("div", "this is adventure", [adventure()]);
-		}}}
 
 var myData = {
 	"grpMember": {
