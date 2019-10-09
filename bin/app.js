@@ -146,18 +146,5 @@ m.route(document.body, "/", {
 		view: function() {
 			return m(Layout, m(Output2))
 		},
+	}
 })
-
-HA.stores.JsonLoader = function JsonLoader(loaderConfig) {
-	"use strict";
-	var url = HA.config.dataUrl + "/" + loaderConfig.url;
-	return {
-		load: function () {
-			m.request({
-				url: url
-			}).then(function (response) {
-				HA.stores[loaderConfig.name] = response;
-			});
-		}
-	};
-};
