@@ -61,6 +61,7 @@ var Layout = {
 			m('nav', {onclick: (e) => console.log('clicked', e)}, 'HavingAdventures NAV'),
 			m('h2', {onclick: (e) => console.log('clicked', e)}, 'HavingAdventures header'),
 			vnode.children,
+			m('div', ' ----  '),
 			m('div', 'HavingAdventures footer'),
 		])
 	}
@@ -69,16 +70,15 @@ const Home = {
 	view: function(vnode) {
 		return m("h2." +
 			"" +
-			"", 'Home')
+			"", 'Content goes here')
 	}
-
 }
 const Trip = {
 	view: function(vnode) {
 		return m(".layout",  m(".row",[
-				m('div', myData.grpMember.name ),
-				m('div', m('p', myData.grpMember.storeName),
-					m('p', myData.grpMember.hrefx))
+				m('div',  "MyData-grpMember-name is -- " + myData.grpMember.name ),
+				m('div', m('p', "MyData-grpMember-storeName is -- " + myData.grpMember.storeName),
+					m('p',  "MyData-grpMember-hrefx is -- " + myData.grpMember.hrefx))
 			]
 		))
 	}
