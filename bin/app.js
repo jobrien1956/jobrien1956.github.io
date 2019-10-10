@@ -41,6 +41,7 @@ var Layout = {
 		return m(".layout", [
 			m('nav', {onclick: (e) => console.log('clicked', e)}, 'HavingAdventures NAV'),
 			m('h2', {onclick: (e) => console.log('clicked', e)}, 'HavingAdventures header'),
+			m('div', ' ----  '),
 			vnode.children,
 			m('div', ' ----  '),
 			m('div', 'HavingAdventures footer'),
